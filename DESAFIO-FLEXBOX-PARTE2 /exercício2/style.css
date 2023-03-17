@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding:10px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #103876;
+    color: #fff;
+    padding: 10px;
+  }
+  
+.politica {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0077cc;
+  padding: 10px;
+}
+
+.economia {
+  display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+background-color: #0eaa52;
+padding: 10px;
+}
+
+.esportes {
+  display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+background-color: #6d071c;
+padding: 10px;
+}
+
+.saude {
+  display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+background-color: #0a838f;
+padding: 10px;
+}
+
+.cultura {
+  display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+background-color: #591392;
+padding: 10px;
+}
+
+  
+  .noticia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .noticia img {
+    margin-right: 20px;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .conteudo-noticia {
+    flex: 1;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #103876;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #103876;
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+
+  a:hover{
+    background-color: #060b46;
+  }
+
+  footer {
+    background-color: #103876;
+    text-align: center;
+  }
+  
+  footer h2 {
+    padding: 20px;
+    margin-top: 50px;
+    color: #f1f1f1;
+  }
+
+  footer section {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 10px;
+  }
+  
+  footer section img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+
+  footer section .ntc {
+    color: #f1f1f1;
+    text-align: justify;
+    padding: 20px;
+
+  }
+  
+  footer section .ntc h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #f1f1f1;
+  }
+  
+  footer section .ntc p {
+    margin-bottom: 0;
+  }
+  
+  footer section .ntc a {
+    align-items: flex-end;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #103876;
+    text-decoration: none;
+  }
+  
+  footer section .ntc a:hover {
+    align-items: flex-end;
+    background-color: #9fc0c9;
+  }
+
+
+
+  
+  
